@@ -1,0 +1,233 @@
+@media (max-width: 1920px) {
+
+    .hero-name img {
+        width: 68vw;
+    }
+
+    .content-container {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+    .mascot {
+        width: auto;
+    }
+
+    .title {
+        font-size: 116px;
+    }
+}
+
+
+@media (max-width: 1440px) {
+
+    .content-container {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+    .mascot {
+        width: auto;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .words.anim.words4 {
+        left: 0;
+    }
+
+
+    .blocks-item {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 1194px) {
+
+    .content-container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .mascot img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .app-qr {
+        width: 70%;
+    }
+
+    .app-button {
+        width: 70%;
+    }
+
+    .idea-text-container {
+        width: 100%;
+    }
+
+    .blocks-item {
+        width: 100%;
+    }
+
+    .words-text {
+        font-size: 30px;
+    }
+
+    .words.anim.words4 {
+        left: 0;
+    }
+
+    .blocks-column.anim.blocks-column-2.active {
+        transform: translateX(25%);
+    }
+
+}
+
+
+@media (max-width: 834px) {
+
+    .content-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .mascot {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mascot img {
+        display: inline-block;
+    }
+
+    .words.anim.words1 {
+        top: -200px;
+    }
+
+    .words.anim.words2 {
+        left: 0;
+        bottom: 400px;
+    }
+
+    .words.anim.words3 {
+        top: -300px;
+    }
+
+    .words.anim.words4 {
+        left: 0;
+    }
+
+    .idea-mascot img {
+        width: 75vw;
+    }
+
+    .about-mascot img {
+        width: 100%;
+    }
+    
+    .hero-content {
+        padding-bottom: 600px;
+    }
+
+    .hero-name {
+        margin-top: 400px;
+    }
+
+    .idea-row {
+        display: block;
+    }
+
+    .idea-text-container {
+        width: 100%;
+    }
+
+    .about-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .photo {
+        height: 42vw;
+    }
+
+    .photo img {
+        display: none;
+    }
+
+    .photo1 {
+        background-image: url('../img/фото1.png');
+    }
+
+    .photo2 {
+        grid-column-start: auto;
+        grid-row-start: auto;
+
+        background-image: url('../img/фото2.jpg');
+    }
+
+    .photo3 {
+        grid-column: span 2 / span 2;
+        grid-row: auto;
+        grid-row-start: auto;
+
+        background-image: url('../img/фото3.png');
+    }
+
+    .photo4 {
+        grid-column: span 2 / span 2;
+        grid-row-start: 3;
+
+        background-image: url('../img/фото4.png');
+    }
+
+    .photo-text {
+        font-size: 40px;
+    }
+
+    .slide {
+        grid-template-columns: auto;
+    }
+
+    .blocks-item {
+        width: auto;
+        padding: 30px 0 30px 0;
+        gap: 10px;
+    }
+
+    .blocks-icon {
+        width: 40px;
+    }
+
+    .blocks-column.anim.blocks-column-2.active {
+        transform: translateX(0);
+    }
+
+    .blocks-value {
+        font-size: 16px;
+    }
+
+    .eco-mascot img {
+        width: 100%;
+    }
+
+    .advantages-block {
+        width: 100%;
+    }
+
+    .line-content {
+        font-size: 80px;
+    }
+}
